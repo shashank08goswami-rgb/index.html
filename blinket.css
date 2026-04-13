@@ -1,0 +1,100 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.headerleft{
+
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+
+    padding: 15px 30px;
+    border-right: 1px solid gray;
+}
+.headeraddresh{
+
+    padding: 20px 30px;
+}
+.headeraddresh h3{
+
+    font-size: 18px;
+    margin: 5px;
+}
+.headeraddresh p{
+    font-size: 14px;
+}
+    
+.Searchbox button{
+
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.Searchbox{
+flex-grow: 1;
+display: flex;
+background-color: #f8f8f8;
+border-radius: 15px;
+border: 1px solid #f4f4f4;
+}    
+.Searchbox input{
+flex-grow: 1;
+border: none;
+background-color: transparent;
+}
+
+.Searchbox input:focus{
+    outline: none;
+}
+.headerbtn{
+display: flex;
+gap: 60px;
+margin-right: 40px;
+
+
+}
+
+.headerbtn button{
+    width: 200px;
+    height: 30px;
+}
+
+.headerbtn{
+
+font-size: 15px;
+background-color: transparent;
+border: none;
+}
+
+.Banner section{
+
+margin-left: auto;
+width: 200px;
+
+} 
+
+.Banner section img{
+
+width: 100%;
+
+}
+.orderBanner{
+display: flex;
+max-width: 1280px;
+margin: 1.5%;
+gap: 15px;
+}
+
+
